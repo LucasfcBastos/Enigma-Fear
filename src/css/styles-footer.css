@@ -1,0 +1,55 @@
+footer {
+    background: linear-gradient(#13161B, #000000 15vh);
+    margin-top: -20vh;
+    text-align: justify;
+    height: 45vh;
+}
+
+footer .title {
+    margin-top: 10vh;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+}
+
+footer h1 {
+    font-size: 10vh;
+    position: absolute;
+    bottom: -3vh;
+    left: 10vh;
+    transform: translateX(10vh);
+}
+
+footer .container {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+footer button {
+    width: 6vh;
+    height: 6vh;
+    margin-left: 2vh;
+    border-radius: 100vh;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-bottom: 2vh;
+}
+
+footer img {
+    margin-top: 0.6vh;
+    width: 4vh;
+    height: 4vh;
+}
+
+footer button:hover {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100vh;
+    background-color: #00aaff;
+    border-color: transparent;
+}
+
+footer p {
+    color: #ffffff75;
+}

@@ -1,0 +1,60 @@
+main {
+    background-color: #00132f;
+    margin-top: -0.8vh;
+    text-align: justify;
+    height: 800px;
+}
+
+main .main {
+    width: 100%;
+    height: 400px;
+	display: flex;
+	align-items: center;
+    gap: 25px;
+}
+
+main .text {
+    margin-left: 10px;
+    width: 47%;
+}
+
+main .text h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+main .text p {
+    font-size: 25px;
+}
+
+main .secondary {
+    margin-left: 30px;
+	display: flex;
+    gap: 25px;
+}
+
+main .secondary .first-quadrant,
+.second-quadrant,
+.third-quadrant{
+    width: 400px;
+}
+
+main .secondary img {
+    border-radius: 25px;
+    width: 400px;
+}
+
+main .secondary h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+main .secondary p {
+    font-size: 16px;
+}
+
+video {
+    border-radius: 25px;
+}

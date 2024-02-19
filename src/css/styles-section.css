@@ -1,0 +1,52 @@
+section {
+    background-color: #13161B;
+    margin-top: -0.5vh;
+    text-align: justify;
+    height: 100vh;
+}
+
+section .title {
+    text-align: center;
+    font-size: 30px;
+    height: -1px;
+}
+
+section .container{
+	display: flex;
+	align-items: center;
+}
+
+section img{
+    margin-left: 5vh;
+    width: 50%;
+}
+
+section .description {
+    margin-left: 5vh;
+    width: 90vh;
+}
+
+section .description p {
+    font-size: 4vh;
+    margin-bottom: 10vh;
+}
+
+section .description button {
+    width: 50vh;
+    height: 10vh;
+    margin-left: 20vh;
+    font-size: 5vh;
+    color: #00AAFF;
+    background-color: transparent;
+    border-color: #00AAFF;
+    border-radius: 3vh;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+section .description button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+    box-shadow: 0 0 50px #00AAFF;
+}
