@@ -6,43 +6,43 @@ main {
 }
 
 main .main {
+    background-color: yellowgreen;
     width: 100%;
-    height: 400px;
-	display: flex;
-	align-items: center;
-    gap: 25px;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .text {
-    margin-left: 10px;
+    background-color: violet;
     width: 47%;
 }
 
 main .text h1 {
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 10%;
+    font-size: 9vh;
+    margin-bottom: 3vh;
 }
 
 main .text p {
-    font-size: 25px;
+    font-size: 5vh;
 }
 
 main .secondary {
     margin-left: 30px;
+    gap: 45px;
 	display: flex;
-    gap: 25px;
 }
 
 main .secondary .first-quadrant,
 .second-quadrant,
 .third-quadrant{
-    width: 400px;
+    width: 100vh;
 }
 
 main .secondary img {
     border-radius: 25px;
-    width: 400px;
 }
 
 main .secondary h1 {
@@ -56,5 +56,10 @@ main .secondary p {
 }
 
 video {
+    margin-right: 4.8vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     border-radius: 25px;
+    width: 46vw;
+    height: 25.9vw;
 }

@@ -1,0 +1,5 @@
+@media (max-width: 675px) {
+    header .menu{
+        visibility: hidden;
+    }
+}
