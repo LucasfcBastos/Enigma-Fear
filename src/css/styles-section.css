@@ -3,7 +3,7 @@ section {
     margin-top: -0.5vh;
     text-align: justify;
     height: 100vh;
-    visibility: hidden;
+    display: none;
 }
 
 section .title {

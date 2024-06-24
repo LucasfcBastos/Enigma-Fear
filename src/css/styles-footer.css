@@ -3,7 +3,7 @@ footer {
     margin-top: -20vh;
     text-align: justify;
     height: 45vh;
-    visibility: hidden;
+    display: none;
 }
 
 footer .title {

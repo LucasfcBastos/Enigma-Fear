@@ -1,5 +1,5 @@
 header {
-	width: 100%;
+	width: 100vw;
 	height: 7.5vh;
 	background-color: #000000;
 	display: flex;
@@ -32,7 +32,7 @@ header img.img {
 
 header .menu{
 	margin-top: 1.3vh;
-	margin-right: 1.3vh;
+	margin-right: 5vh;
 	display: flex;
 	font-weight: bolder;
 	gap: 5vh;
@@ -44,7 +44,7 @@ header .menu li a:hover {
 }
 
 .banner-image {
-	margin-top: -19px;
-	height: 50vw;
+	margin-top: -20px;
+	height: 47.7vw;
 	width: 100%;
 }

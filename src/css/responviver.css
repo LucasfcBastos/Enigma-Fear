@@ -1,5 +1,36 @@
-@media (max-width: 675px) {
+@media (max-width: 690px) {
     header .menu{
         visibility: hidden;
+    }
+
+    .banner-image {
+        background-color: thistle;
+        width: 100vw;
+        height: 100vw;
+    }
+
+    main .main{
+        display: block;
+    }
+
+    video{
+        width: 88.8vw;
+        height: 50vw;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    main .text{
+        margin-left: 50%;
+        transform: translate(-50%);
+        width: 90vw;
+    }
+    
+    main .text h1 {
+        font-size: 7vw;
+    }
+
+    main .text p {
+        font-size: 5vw;
     }
 }

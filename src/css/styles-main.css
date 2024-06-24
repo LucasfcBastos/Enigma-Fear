@@ -3,10 +3,10 @@ main {
     margin-top: -0.8vh;
     text-align: justify;
     height: 800px;
+    display: none;
 }
 
 main .main {
-    background-color: yellowgreen;
     width: 100%;
     gap: 1vw;
     display: flex;
@@ -15,7 +15,6 @@ main .main {
 }
 
 main .text {
-    background-color: violet;
     width: 47%;
 }
 
@@ -30,6 +29,7 @@ main .text p {
 }
 
 main .secondary {
+    visibility: hidden;
     margin-left: 30px;
     gap: 45px;
 	display: flex;
