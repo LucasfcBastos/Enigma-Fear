@@ -69,8 +69,8 @@ header .menu2 li {
 
 header .menu2 .out {
 	cursor: pointer;
-	position: relative;
+	position: absolute;
 	width: 5vh;
-	right: -41vh;
-	top: -18.5vh;
+	right: 4vh;
+	top: 1.5vh;
 }
