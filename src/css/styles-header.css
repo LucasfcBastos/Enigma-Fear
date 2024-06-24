@@ -30,16 +30,17 @@ header img.img {
     width: 300px;
 }
 
-header .menu{
+header .menu1{
+	position: fixed;
 	margin-top: 1.3vh;
-	margin-right: 5vh;
+	right: 10px;
 	display: flex;
 	font-weight: bolder;
 	gap: 5vh;
     font-size: 4vh;
 }
 
-header .menu li a:hover {
+header .menu1 li a:hover {
 	border-bottom: 2px solid #fff;
 }
 
@@ -47,4 +48,29 @@ header .menu li a:hover {
 	margin-top: -20px;
 	height: 47.7vw;
 	width: 100%;
+}
+
+.smart_nav{
+	visibility: hidden;
+}
+
+.smart_nav .icon {
+	position: fixed;
+	margin-top: 0.6vh;
+	right: 7px;
+	cursor: pointer;
+	text-overflow: unset;
+}
+
+header .menu2 li {
+	margin-left: 2vh;
+	margin-top: 2vh;
+}
+
+header .menu2 .out {
+	cursor: pointer;
+	position: relative;
+	width: 5vh;
+	right: -41vh;
+	top: -18.5vh;
 }
