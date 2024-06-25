@@ -2,64 +2,104 @@ main {
     background-color: #00132f;
     margin-top: -0.8vh;
     text-align: justify;
-    height: 800px;
-    display: none;
+    width: 100%;
 }
 
 main .main {
     width: 100%;
-    gap: 1vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+main .video {
+    margin-top: 1vh;
+    width: 51.2vw;
+}
+
+main video {
+    margin-left: 1.8vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+    width: 46vw;
+    height: 25.9vw;
+    border-radius: 25px;
 }
 
 main .text {
-    width: 47%;
+    margin-top: 2.5vw;
+    margin-right: 2vw;
+    justify-content: center;
+    height: 25.9vw;
 }
 
 main .text h1 {
     text-align: center;
-    font-size: 9vh;
-    margin-bottom: 3vh;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
 }
 
 main .text p {
-    font-size: 5vh;
+    font-size: 2.5vw;
+    margin-bottom: 5vh;
 }
 
 main .secondary {
-    visibility: hidden;
-    margin-left: 30px;
-    gap: 45px;
+    background-color: #002153;
+    justify-content: center;
 	display: flex;
+    gap: 1vw;
 }
 
 main .secondary .first-quadrant,
 .second-quadrant,
-.third-quadrant{
-    width: 100vh;
+.third-quadrant {
+    background-color: #00132f;
+    text-align: center;
+    width: 32vw;
 }
 
 main .secondary img {
+    width: 30vw;
     border-radius: 25px;
 }
 
 main .secondary h1 {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
 }
 
 main .secondary p {
-    font-size: 16px;
+    margin-left: 1vw;
+    width: 30vw;
+    text-align: justify;
+    font-size: 1.5vw;
 }
 
-video {
-    margin-right: 4.8vh;
-    margin-top: 2vh;
-    margin-bottom: 1vh;
-    border-radius: 25px;
-    width: 46vw;
-    height: 25.9vw;
+@media (max-width: 690px) {
+    main {
+        margin-top: -2vh;
+    }
+    
+    main .main{
+        display: block;
+    }
+
+    main .video{
+        width: 100%;
+    }
+
+    main video{
+        margin-left: 4vw;
+        width: 88.8vw;
+        height: 50vw;
+    }
+    
+    main .secondary {
+        background-color: yellow;
+        display: block;
+        width: 100%;
+        margin-top: 19vw;
+        gap: 45px;
+    }
 }

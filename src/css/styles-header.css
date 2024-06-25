@@ -45,7 +45,6 @@ header .menu1 li a:hover {
 }
 
 .banner-image {
-	margin-top: -20px;
 	height: 47.7vw;
 	width: 100%;
 }
@@ -69,8 +68,9 @@ header .menu2 li {
 
 header .menu2 .out {
 	cursor: pointer;
-	position: absolute;
-	width: 5vh;
-	right: 4vh;
-	top: 1.5vh;
+	position: fixed;
+	width: 5.5vh;
+	top: 0;
+	margin-top: 1vh;
+	right: 7px;
 }
