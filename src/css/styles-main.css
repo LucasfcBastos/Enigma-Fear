@@ -1,0 +1,136 @@
+main {
+    margin-top: -5px;
+    background-color: #00132F;
+}
+
+main .part01 {
+    display: none;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+main .part01 .video {
+    left: 0;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+main .part01 video {
+    margin-top: 3px;
+    width: 46.9vw;
+    height: 26.4vw;
+    border-radius: 1.7vw;
+}
+
+main .part01 .text {
+    align-content: center;
+    text-align: justify;
+    margin-left: 1vw;
+    margin-right: 2vw;
+    width: 46.2vw;
+}
+
+main .part01 p {
+    font-size: 3vw;
+    text-align: justify;
+    font-weight: bold;
+}
+
+main .part02 {
+    background-color: #012641;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+main .part02 .first,
+main .part02 .second,
+main .part02 .third{
+    background-color: #00132F;
+    width: 30.5vw;
+}
+
+main .part02 h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+main .part02 img {
+    border-radius: 1.7vw;
+    margin-left: 0.7vw;
+    width: 95%;
+}
+
+main .part02 p {
+    margin-left: 0.7vw;
+    width: 95%;
+    font-size: 1.8vw;
+    text-align: justify;
+    font-weight: bold;
+}
+
+@media (max-width: 685px) {
+    main .part01 {
+        display: contents;
+    }
+
+    main .part01 .video {
+        text-align: center;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    main .part01 video {
+        width: 90vw;
+        height: 50.7vw;
+        border-radius: 4vw;
+    }
+
+    main .part01 .text {
+        width: 100%;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 5vw;
+    }
+    
+    main .part01 p {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 5vw;
+    }
+    
+    main .part02 {
+        display: contents;
+        gap: 0vw;
+        background-color: #012641;
+    }
+
+    main .part02 .first,
+    main .part02 .second,
+    main .part02 .third{
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+
+    main .part02 h1 {
+        font-size: 7vw;
+    }
+
+    main .part02 .img {
+        text-align: center;
+    }
+
+    main .part02 img {
+        border-radius: 4vw;
+        margin-left: 0;
+        width: 90vw;
+        height: auto;
+    }
+
+    main .part02 p {
+        margin-left: 2.4vw;
+        margin-right: 2.4vw;
+        width: none;
+        font-size: 5vw;
+    }
+}

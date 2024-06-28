@@ -1,7 +1,10 @@
-.id .container {
-    position: relative;
+.id {
     align-content: center;
     height: 10vw;
+}
+
+.id .container {
+    position: relative;
 }
 
 .id .hexa {
@@ -13,15 +16,15 @@
 }
 
 .id .hexa.left {
-    top: 2.8vw;
-    left: 24.9vw;
+    top: 0.7vw;
+    left: 24.8vw;
     transform: rotate(45deg);
     border-radius: 0.6vw 0vw 0.6vw 0vw;
 }
 
 .id .hexa.right {
-    top: 2.8vw;
-    right: 24.9vw;
+    top: 0.7vw;
+    right: 24.8vw;
     transform: rotate(45.2deg);
     border-radius: 0.6vw 0vw 0.6vw 0vw;
 }
@@ -45,25 +48,25 @@
 }
 
 @media (max-width: 685px) {
-    .id .container {
+    .id {
         height: 15vw;
     }
 
     .id .hexa {
-        border: 1.2vw solid #113D48;
+        border: 1.3vw solid #113D48;
         height: 7.5vw;
         width: 7.5vw;
     }
 
     .id .hexa.left {
-        top: 3.7vw;
-        left: 7.5vw;
+        top: 1.3vw;
+        left: 13.2vw;
         border-radius: 0.8vw 0vw 0.8vw 0vw;
     }
     
     .id .hexa.right {
-        top: 3.7vw;
-        right: 7.5vw;
+        top: 1.3vw;
+        right: 13.2vw;
         border-radius: 0.8vw 0vw 0.8vw 0vw;
     }
 
@@ -71,11 +74,11 @@
         border-bottom: 1.5vw solid #113D48;
         border-top: 1.5vw solid #113D48;
         height: 10vw;
-        margin-left: 11vw;
-        margin-right: 11vw;
+        margin-left: 17vw;
+        margin-right: 17vw;
     }
 
     .id p {
-        font-size: 4vw;
+        font-size: 5.5vw;
     }
 }
