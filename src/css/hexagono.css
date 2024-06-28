@@ -1,0 +1,81 @@
+.id .container {
+    position: relative;
+    align-content: center;
+    height: 10vw;
+}
+
+.id .hexa {
+    position: absolute;
+    background: #01020B;
+    border: 0.6vw solid #113D48;
+    height: 4.4vw;
+    width: 4.4vw;
+}
+
+.id .hexa.left {
+    top: 2.8vw;
+    left: 24.9vw;
+    transform: rotate(45deg);
+    border-radius: 0.6vw 0vw 0.6vw 0vw;
+}
+
+.id .hexa.right {
+    top: 2.8vw;
+    right: 24.9vw;
+    transform: rotate(45.2deg);
+    border-radius: 0.6vw 0vw 0.6vw 0vw;
+}
+
+.id .hexagono {
+    position: relative;
+    background: #01020B;
+    border-bottom: 0.6vw solid #113D48;
+    border-top: 0.6vw solid #113D48;
+    height: 5.7vw;
+    align-content: center;
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.id p {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-shadow: 0px 0px 1vw #00FFFF;
+}
+
+@media (max-width: 685px) {
+    .id .container {
+        height: 15vw;
+    }
+
+    .id .hexa {
+        border: 1.2vw solid #113D48;
+        height: 7.5vw;
+        width: 7.5vw;
+    }
+
+    .id .hexa.left {
+        top: 3.7vw;
+        left: 7.5vw;
+        border-radius: 0.8vw 0vw 0.8vw 0vw;
+    }
+    
+    .id .hexa.right {
+        top: 3.7vw;
+        right: 7.5vw;
+        border-radius: 0.8vw 0vw 0.8vw 0vw;
+    }
+
+    .id .hexagono {
+        border-bottom: 1.5vw solid #113D48;
+        border-top: 1.5vw solid #113D48;
+        height: 10vw;
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+
+    .id p {
+        font-size: 4vw;
+    }
+}

@@ -36,9 +36,9 @@ header .menu1{
     align-items: center;
 	font-weight: bolder;
     height: 7.5vh;
-	right: 10px;
+	right: 13px;
 	gap: 5vh;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 header .menu1 li a:hover,
@@ -77,7 +77,7 @@ header .menu2 .out {
     width: 100%;
 }
 
-@media (max-width: 965px) {
+@media (max-width: 850px) {
     header .menu1{
         visibility: hidden;
     }
@@ -151,6 +151,6 @@ header .menu2 .out {
         margin-top: 1.3vh;
         margin-right: 5vw;
         gap: 5vh;
-        font-size: 11vw;
+        font-size: 12vw;
     }
 }

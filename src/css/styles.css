@@ -1,13 +1,8 @@
-@font-face {
-	font-family: "NotoSeriHebrew";
-	src: url("../font/NotoSerifHebrew.ttf");
-}
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "NotoSeriHebrew";
+	font-family: 'Alumni Sans', sans-serif;
     color: rgb(255, 255, 255);
 }
 
