@@ -102,13 +102,16 @@ main .part02 p {
     main .part02 {
         display: contents;
         gap: 0vw;
-        background-color: #012641;
     }
 
     main .part02 .first,
     main .part02 .second,
     main .part02 .third{
         width: 100%;
+    }
+
+    main .part02 .second {
+        margin-top: 5vw;
         margin-bottom: 5vw;
     }
 
@@ -132,5 +135,9 @@ main .part02 p {
         margin-right: 2.4vw;
         width: none;
         font-size: 5vw;
+    }
+    
+    main .part02 .third p {
+        height: 35vw;
     }
 }
