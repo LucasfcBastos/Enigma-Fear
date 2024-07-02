@@ -1,0 +1,130 @@
+nav {
+    background-color: #101218;
+}
+
+nav .part01 {
+    display: flex;
+    justify-content: center;
+}
+
+nav .part01 .gamev1,
+nav .part01 .gamev2,
+nav .part01 .gamev3 {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    justify-items: center;
+    text-align: center;
+}
+
+nav .part01 img {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 28vw;
+    width: auto;
+}
+
+nav .part01 p.normal {
+    font-size: 2vw;
+    text-decoration: line-through;
+    color: #878787;
+}
+
+nav .part01 p.discount {
+    font-size: 3vw;
+    line-height: 2vw;
+    color: #ffff00;
+}
+
+nav button {
+    margin-top: 15px;
+    width: 22vw;
+    color: #000000;
+    font-size: 3vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    border: 2px solid #09C7ED;
+    background-color: #09C7ED;
+    cursor: pointer;
+    margin-bottom: 2.5vw;
+}
+
+nav button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1vw #00FFFF;
+}
+
+nav .part02 {
+    margin-top: 2.5vw;
+    background-color: #252629;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+nav .part02 .product1,
+nav .part02 .product2 {
+    background-color: #101218;
+    justify-items: center;
+    text-align: center;
+    width: 45vw;
+}
+
+nav .part02 h1 {
+    font-size: 3vw;
+}
+
+nav .part02 img {
+    margin-top: 1vw;
+    width: 35vw;
+}
+
+@media (max-width: 685px) {
+    nav .part01 {
+        display: contents;
+    }  
+    
+    nav .part01 .gamev1,
+    nav .part01 .gamev2,
+    nav .part01 .gamev3 {
+        margin-top: 2vw;
+    }
+    
+    nav .part01 img {
+        height: 58vw;
+    }
+
+    nav .part01 p.normal {
+        font-size: 4vw;
+    }
+    
+    nav .part01 p.discount {
+        font-size: 6vw;
+        line-height: 4vw;
+    }
+
+    nav button {
+        width: 44vw;
+        font-size: 6vw;
+        border-radius: 2vw;
+        margin-bottom: 5vw;
+    }
+    
+    nav .part02 {
+        display: contents;
+    }
+
+    nav .part02 .product1,
+    nav .part02 .product2 {
+        margin-top: 2vw;
+        width: 100%;
+    }
+
+    nav .part02 h1 {
+        font-size: 6vw;
+    }
+    
+    nav .part02 img {
+        margin-top: 2vw;
+        width: 70vw;
+    }
+}

@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="src/css/styles-main.css" />
     <link rel="stylesheet" href="src/css/styles-article.css" />
     <link rel="stylesheet" href="src/css/styles-search.css" />
+    <link rel="stylesheet" href="src/css/styles-nav.css" />
     <link rel="stylesheet" href="src/css/hexagono.css" />
+    <script src="src/js/link.js"></script>
     <script src="src/js/menu.js"></script>
     <script src="src/js/scroll.js"></script>
 </head>
@@ -206,5 +208,49 @@
     <div class="ink bottom">
         <img src="src/svg/ink.svg">
     </div>
+    <nav id="buy">
+        <div class="id">
+            <div class="container">
+                <div class="hexa left"></div>
+                <div class="hexa right"></div>
+                <div class="hexagono">
+                    <p>EDITIONS AND COLLECTIONS</p>
+                </div>
+            </div>
+        </div>
+        <div class="part01">
+            <div class="gamev1">
+                <img src="src/img/G1.png">
+                <p class="normal">R$ 55,00</p>
+                <p class="discount">R$ 49,90</p>
+                <button onclick="game1()">BUY</button>
+            </div>
+            <div class="gamev2">
+                <img src="src/img/G2.png">
+                <p class="normal">R$ 95,00</p>
+                <p class="discount">R$ 85,00</p>
+                <button onclick="game2()">BUY</button>
+            </div>
+            <div class="gamev3">
+                <img src="src/img/G3.png">
+                <p class="normal">R$ 120,00</p>
+                <p class="discount">R$ 105,00</p>
+                <button onclick="game3()">BUY</button>
+            </div>
+        </div>
+        <hr>
+        <div class="part02">
+            <div class="product1">
+                <h1>CLOTHES AND ACCESSORIES</h1>
+                <img src="src/img/product1.png">
+                <button onclick="Lolja()">LOLJA</button>
+            </div>
+            <div class="product2">
+                <h1>BOOKS AND COMICS</h1>
+                <img src="src/img/product2.png">
+                <button onclick="Jambo()">JAMBÔ</button>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
