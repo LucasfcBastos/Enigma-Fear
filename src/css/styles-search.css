@@ -1,0 +1,109 @@
+div.ink {
+    width: 100%;
+    content: url('/src/img/ink1.png');
+}
+
+div.ink.top{
+    background-color: #012641;
+}
+
+div.ink.bottom {
+    transform: rotate(180deg);
+    background-color: #101218;
+}
+
+search {
+    background-color: black;
+}
+
+search .part01 p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 3.2vw;
+    text-align: justify;
+    font-weight: bold;
+}
+
+search .part01 .icons {
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+search .part01 img {
+    width: 10.5vw;
+}
+
+search h1 {
+    background-color: #101218;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+    font-size: 4vw;
+}
+
+search table,
+search th,
+search td {
+    border-collapse: collapse;
+    border: 1.5vw solid black;
+    font-size: 2vw;
+}
+
+search td{
+    text-align: left;
+}
+
+search tr.color1 {
+    background-color: #101218;
+}
+
+search tr.color2 {
+    background-color: #252629;
+}
+
+search th.type {
+    border-left: 2vw solid black;
+    width: 30vw;
+    text-indent: 2vw;
+    text-align: left;
+}
+
+search th.description {
+    border-right: 2vw solid black;
+    width: 67vw;
+}
+
+@media (max-width: 685px) {
+    div.ink {
+        content: url('/src/img/ink2.png');
+    }
+
+    search .part01 img {
+        width: 15vw;
+    }
+
+    search h1 {
+        font-size: 6vw;
+    }
+    
+    search .part01 p{
+        font-size: 4.5vw;
+    }
+    
+    search table,
+    search th,
+    search td {
+        font-size: 3.5vw;
+    }
+
+    search th.type {
+        width: 26vw;
+    }
+    
+    search th.description {
+        width: 70vw;
+    }
+}

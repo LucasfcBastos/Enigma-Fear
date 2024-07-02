@@ -73,12 +73,12 @@
     .id .hexagono {
         border-bottom: 1.5vw solid #113D48;
         border-top: 1.5vw solid #113D48;
-        height: 10vw;
+        height: 10.2vw;
         margin-left: 17vw;
         margin-right: 17vw;
     }
 
     .id p {
-        font-size: 5.5vw;
+        font-size: 6vw;
     }
 }

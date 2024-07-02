@@ -37,10 +37,6 @@ article .part01 p {
 }
 
 @media (max-width: 685px) {
-    body {
-        overflow-x: hidden;
-    }
-
     article .part01 .container01,
     article .part01 .container02,
     article .part01 .container03{
@@ -59,20 +55,25 @@ article .part01 p {
     }
     
     article .part01 .container01 img,
+    article .part01 .container02 img,
     article .part01 .container03 img{
         transform: rotate(15deg);
-        margin-top: 1vw;
+        margin-top: 3.5vw;
         left: -20vw;
     }
     
-    article .part01 .container02 img {
-        transform: rotate(-15deg);
-        margin-top: 4vw;
-        right: -20vw;
+    article .part01 .container02 img{
+        margin-top: 2vw;
     }
     
+    article .part01 .container03 img{
+        margin-top: 6.5vw;
+    }
+
     article .part01 p {
-        margin-top: 5vw;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
         text-indent: 5vw;
         font-size: 5vw;
-    }}
+    }
+}
