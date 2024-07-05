@@ -1,0 +1,45 @@
+address {
+    font-style: normal;
+    background-color: #252629;
+}
+
+address .part01 {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+address .part01 p{
+    font-size: 2.5vw;
+    width: 40vw;
+    margin-bottom: 2.5vw;
+    text-align: center;
+}
+
+address .part01 .img {
+    justify-items: center;
+    margin-bottom: 2.5vw;
+    width: 20vw;
+    margin-left: 10vw;
+}
+
+address .part01 img{
+    cursor: pointer;
+    width: 20vw;
+    height: auto;
+}
+
+address .part01 img.face{
+    height: 5.1vw;
+}
+
+address .part01 .icons{
+    display: flex;
+    gap: 2.5vw;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+address .part01 .icons img{
+    width: 5vw;
+}

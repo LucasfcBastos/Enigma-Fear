@@ -1,0 +1,53 @@
+footer {
+    background: linear-gradient(#252629, #000000 15vh);
+    text-align: justify;
+}
+
+footer .text {
+    position: relative;
+    height: 250px;
+    text-align: center;
+}
+
+footer .text h1{
+    font-size: 7.5vw;
+}
+
+footer .text p{
+    line-height: 1vw;
+    font-size: 5vw;
+}
+
+footer .icons {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .icons button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 10vw;
+    border: 2px solid #09C7ED;
+    background-color: #09C7ED;
+}
+
+footer .icons button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1vw #00FFFF;
+}
+
+footer .icons img {
+    margin-top: 4px;
+    width: 30px;
+}
+
+footer .info {
+    margin-top: 20px;
+}
+
+footer .info p {
+    text-align: center;
+}
